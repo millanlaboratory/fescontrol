@@ -1,0 +1,67 @@
+{
+    "frequency": 35,
+    "sequence": [
+        {
+            "name": "shoulder_flexion",
+            "actionType": "limited",
+            "delay": 0,
+            "duration": 4500,
+            "channel": 1,
+            "currentIncrementMode": "linear",
+            "pulseWidthIncrementMode": "linear",
+            "currentIncrementerParameters": [
+                0,
+                10.0,
+                2000
+            ],
+            "pulseWidthIncrementerParameters": [
+                0,
+                1,
+                0
+            ],
+            "currentDecrementMode": "linear",
+            "pulseWidthDecrementMode": "linear",
+            "currentDecrementerParameters": [
+                0,
+                10.0,
+                1500
+            ],
+            "pulseWidthDecrementerParameters": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "name": "extension_wrist",
+            "actionType": "limited",
+            "delay": 500,
+            "duration": 4500,
+            "channel": 2,
+            "currentIncrementMode": "linear",
+            "pulseWidthIncrementMode": "linear",
+            "currentIncrementerParameters": [
+                0,
+                25.0,
+                2000
+            ],
+            "pulseWidthIncrementerParameters": [
+                0,
+                1,
+                0
+            ],
+            "currentDecrementMode": "linear",
+            "pulseWidthDecrementMode": "linear",
+            "currentDecrementerParameters": [
+                0,
+                25.0,
+                1500
+            ],
+            "pulseWidthDecrementerParameters": [
+                0,
+                1,
+                0
+            ]
+        }
+    ]
+}

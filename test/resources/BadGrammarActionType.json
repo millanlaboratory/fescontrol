@@ -1,0 +1,11 @@
+{
+    "frequency" : 25,
+    "sequence" : [
+        { 
+            "actionType": "settler",
+        	"channel" : 2,
+        	"current" : 10,
+            "pulseWidth" : 0.3
+	    }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"Movements" : [
+		{
+			"Name" : "flexion",
+			"EventId" : 14,
+			"MovementFile" : "flexion.json"
+		},
+		{
+			"Name" : "reaching",
+			"EventId" : 15,
+			"MovementFile" : "reaching.json"
+		}
+	]
+}

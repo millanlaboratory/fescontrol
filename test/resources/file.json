@@ -1,0 +1,19 @@
+{
+    "frequency" : 25,
+    "sequence" : [
+        { 
+        	"delay": 100,
+        	"duration" : 1000,
+        	"channel" : 2,
+        	"currentIncrementMode" : "linear",
+            "pulseWidthIncrementMode" : "linear",
+        	"currentIncrementerParameters" : [1,2,3],
+            "pulseWidthIncrementerParameters" : [1,2,3],
+            "currentDecrementMode" : "linear",
+            "pulseWidthDecrementMode" : "linear",
+            "currentDecrementerParameters" : [2,1,3],
+            "pulseWidthDecrementerParameters" : [2,1,3]
+	    }
+    ]
+}
+

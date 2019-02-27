@@ -1,0 +1,31 @@
+{
+	"frequency" : 35,
+    "sequence" : [
+        { 
+        	"delay": 3000,
+        	"duration" : 8000,
+        	"channel" : 1,
+        	"currentIncrementMode" : "linear",
+            "pulseWidthIncrementMode" : "linear",
+        	"currentIncrementerParameters" : [0, 12, 5000],
+            "pulseWidthIncrementerParameters" : [0, 2, 0],
+            "currentDecrementMode" : "linear",
+            "pulseWidthDecrementMode" : "linear",
+         	"currentDecrementerParameters" : [0, 12, 3000],
+            "pulseWidthDecrementerParameters" : [0, 2, 0]
+	    },
+		{
+			"delay": 6000,
+        	"duration" : 8000,
+        	"channel" : 1,
+        	"currentIncrementMode" : "linear",
+            "pulseWidthIncrementMode" : "linear",
+        	"currentIncrementerParameters" : [0, 12, 5000],
+            "pulseWidthIncrementerParameters" : [0, 2, 0],
+            "currentDecrementMode" : "linear",
+            "pulseWidthDecrementMode" : "linear",
+         	"currentDecrementerParameters" : [0, 12, 3000],
+            "pulseWidthDecrementerParameters" : [0, 2, 0]
+		}
+	]
+}

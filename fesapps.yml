@@ -1,0 +1,18 @@
+version: 2
+jobs:
+  build:
+    before_script: 
+      - apt update && apt -y install cmake
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Greeting
+          command: |
+            cd fesjson && cmake . && make -j 4
+      - run:
+          name: Print the Current Time
+          command: |
+            date
+           ./build/tesfesjson
