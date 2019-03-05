@@ -1,0 +1,20 @@
+language: cpp
+sudo: required
+compiler:
+  - gcc
+os:
+  - linux
+addons:
+  apt:
+    packages: lcov
+before_install:
+  - cmake -DCMAKE_BUILD_TYPE=Coverage .
+script:
+  - make -j 4
+  - ./build/testfesjson
+  - sudo make install
+after_success:
+  - lcov --capture --directory CMakeFiles/fescontrol.dir/ --output-file coverage.info
+  - lcov --remove coverage.info '/usr/*' --output-file coverage.info
+  - lcov --list coverage.info # debug info
+  - bash <(curl -s https://codecov.io/bash) -f coverage.info || echo "Codecov did not collect coverage reports"
