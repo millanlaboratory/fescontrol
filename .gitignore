@@ -1,4 +1,15 @@
 *~
 CMakeFiles
+CTestTestfile.cmake
 build
 CMakeCache.txt
+*.a
+*.so
+*.html
+*.png
+fesjson/doc/html
+fesjson/doc/latex
+external
+main_coverage.info
+out
+Makefile
